@@ -1,0 +1,221 @@
+a {
+  text-decoration: none !important;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(33, 172, 172);
+  color: white;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.carro {
+  width: 40px;
+}
+.pizza {
+  width: 40px;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.nav a {
+  color: #fff;
+}
+.banner {
+  background-image: url(./img/pizza-banner.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  gap: 10px;
+}
+.banner p {
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+  width: 500px;
+  text-align: center;
+  max-width: 90%;
+}
+.pizza-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 25%;
+}
+.pizza-card img {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+}
+.pizza-card h2 {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pizzascontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.boder {
+  border-bottom: 1px solid gray;
+}
+
+.pizza-view {
+  padding: 30px;
+}
+
+.pizza-view .pizza-img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.pizza-view .pizza-info {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pizza-view ul {
+  padding-left: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-end {
+  justify-content: flex-end;
+}
+
+.w-50 {
+  width: 50%;
+}
+.w-100 {
+  width: 100%;
+}
+.gap-1 {
+  gap: 4px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  align-items: center;
+  cursor: pointer;
+}
+.price {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.pedido {
+  padding: 40px;
+  display: flex;
+}
+.pedido table img {
+  border-radius: 10px;
+}
+.pedido table td {
+  border-bottom: 1px solid #ddd;
+}
+.rojo {
+  background-color: red;
+  border: none;
+  width: 30px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+}
+.azul {
+  background-color: blue;
+  border: none;
+  width: 30px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+}
+.verde {
+  background-color: green;
+  border: none;
+  width: 80px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+}
+.bold {
+  font-size: 20px;
+  font-weight: bold;
+}
+.pedido img {
+  width: 100%;
+}
+
+.img-cell {
+  width: 110px;
+}
+
+.table-action {
+  gap: 10px;
+}
+.ojos {
+  background-color: #21acac;
+  border: none;
+  width: 80px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+}
+.carro {
+  background-color: red;
+  border: none;
+  width: 80px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.big-text {
+  font-size: 1.2rem;
+}
+
+.title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
