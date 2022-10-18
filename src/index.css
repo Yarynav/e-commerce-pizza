@@ -58,6 +58,7 @@ a {
   flex-direction: column;
   padding: 20px;
   width: 25%;
+  gap: 10px;
 }
 .pizza-card img {
   display: flex;
@@ -148,6 +149,7 @@ a {
 .pedido table td {
   border-bottom: 1px solid #ddd;
 }
+
 .rojo {
   background-color: red;
   border: none;

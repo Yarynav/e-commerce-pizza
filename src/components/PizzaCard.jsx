@@ -23,7 +23,7 @@ export const PizzaCard = ({ pizza }) => {
       <img src={pizza.img} alt="" />
       <h2>{pizza.name}</h2>
       <h3>Ingredientes:</h3>
-      <div className="iconosPizza">
+      <div className="ingredients">
         <ul>
           {pizza.ingredients.map((e) => (
             <li key={e}>{e}</li>
